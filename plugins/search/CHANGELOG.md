@@ -1,5 +1,19 @@
 # @backstage/plugin-search
 
+## 0.6.0
+
+### Minor Changes
+
+- 2f0d3d3278: Forwarding classes to HomePageSearchBar instead of using className prop. For custom styles of the HomePageSearchBar, use classes prop instead:
+
+  ```diff
+  <HomePageSearchBar
+  -  className={searchBar}
+  +  classes={{ root: classes.searchBar }}
+    placeholder="Search"
+  />
+  ```
+
 ## 0.5.6
 
 ### Patch Changes

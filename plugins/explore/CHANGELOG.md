@@ -1,5 +1,19 @@
 # @backstage/plugin-explore
 
+## 0.3.27
+
+### Patch Changes
+
+- a3c4438abf: Deprecated the external `catalogEntity` route as this is now imported directly from `@backstage/plugin-catalog-react` instead.
+
+  This means you can remove the route binding from your `App.tsx`:
+
+  ```diff
+  -    bind(explorePlugin.externalRoutes, {
+  -      catalogEntity: catalogPlugin.routes.catalogEntity,
+  -    });
+  ```
+
 ## 0.3.26
 
 ### Patch Changes

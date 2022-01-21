@@ -1,5 +1,13 @@
 # @backstage/plugin-techdocs
 
+## 0.13.1
+
+### Patch Changes
+
+- a64f99f734: Code snippets now include a "copy to clipboard" button.
+- Updated dependencies
+  - @backstage/plugin-search@0.6.0
+
 ## 0.13.0
 
 ### Minor Changes

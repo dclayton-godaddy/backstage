@@ -1,5 +1,16 @@
 # example-app
 
+## 0.2.62
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog-graph@0.2.8
+  - @backstage/plugin-search@0.6.0
+  - @backstage/plugin-explore@0.3.27
+  - @backstage/plugin-techdocs@0.13.1
+  - @backstage/plugin-home@0.4.12
+
 ## 0.2.61
 
 ### Patch Changes
